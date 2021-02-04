@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Creative Landing Page</title>
+</head>
+<body>
+	<!-- Navigation -->
+	<section class="sec">
+		<header>
+			<a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
+			<div class="hamburger"><i class="fas fa-bars"></i></div>
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#">products</a></li>
+				<li><a href="#">what's new</a></li>
+				<li><a href="#">newsletter</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</header>
+
+		<!-- Content -->
+		<div class="content">
+			<div class="textBox">
+				<h2>that's what<br><span>i like</span></h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, illo porro atque, nisi voluptatibus reiciendis veritatis tempora sapiente tenetur. Voluptatibus adipisci, dignissimos aliquam. Nostrum perferendis repudiandae dicta a impedit, cupiditate.</p>
+				<a href="#">view all products</a>
+			</div>
+
+			<div class="imgBox">
+				<img src="./img/pepsi-blue.png" alt="pepsi can" class="pepsi">
+			</div>
+		</div>
+
+		<ul class="thumb">
+			<li><img src="./img/pepsi-blue.png" alt="pepsi" onclick="imgSlider('pepsi-blue.png');changeBgColor('#0062be');"></li>
+			<li><img src="./img/pepsi-diet.png" alt="pepsi diet" onclick="imgSlider('pepsi-diet.png');changeBgColor('#e60c2c');"></li>
+			<li><img src="./img/pepsi-zero-sugar.png" alt="pepsi zero sugar" onclick="imgSlider('pepsi-zero-sugar.png');changeBgColor('#1e1e1e');"></li>
+		</ul>
+
+		<ul class="sci">
+			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+		</ul>
+	</section>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
